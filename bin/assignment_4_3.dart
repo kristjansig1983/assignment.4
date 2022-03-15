@@ -3,14 +3,20 @@ import 'dart:convert';
 import 'dart:io';
 
 void main() {
-
-  for(int i = 0; i < 10; i++) {
-    if(true) {
-      print('Enter a number:');
-      int i = int.tryParse(stdin.readLineSync());
+  bool active = true;
+  print('Enter a number:');
+  while (active) {
+    List<int> number = [int.parse(stdin.readLineSync())];
+    print('Enter another number:');
+    if (number == '') {
+      active = false;
     }
   }
-  }
+}
+
+
+
+
 
 
 
