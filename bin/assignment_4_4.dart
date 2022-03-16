@@ -1,7 +1,7 @@
 
 import 'dart:convert';
 import 'dart:io';
-
+// Finn ekki úr hvernig ég stoppa lykkjuna þegar ég slæ inn eitthvað annað en streng.
 void main() {
 
   bool active = true;
@@ -11,9 +11,8 @@ void main() {
     print('Enter another word:');
     if(word == ''){
       active = true;
-    } else{
-      print(word);
+    }
     }
   }
-  }
+
 

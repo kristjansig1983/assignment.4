@@ -3,7 +3,7 @@ import 'dart:convert';
 import 'dart:io';
 
 void main() {
-
+// Finn ekki út hvernig ég klára þetta.
   bool active = true;
   print('Enter a number:');
   while(active){
@@ -11,9 +11,8 @@ void main() {
     print('Enter another number');
     if(number == ''){
       active = false;
-    }else{
-      print(number);
     }
+
   }
 }
 
